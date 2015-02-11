@@ -52,7 +52,7 @@ public class JpaMain {
 
 	private void listEmployees() {
 		List<Employee> resultList = manager.createQuery("Select a From Employee a", Employee.class).getResultList();
-		System.out.println("num of employess:" + resultList.size());
+		System.out.println("num of employees:" + resultList.size());
 		for (Employee next : resultList) {
 			System.out.println("next employee: " + next);
 		}
