@@ -1,4 +1,4 @@
-package com.mastertheboss.domain;
+package com.nigeeks.jpa.domain;
 
 import javax.persistence.*;
 import java.util.ArrayList;

@@ -5,8 +5,8 @@
 
 	<persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
 
-		<class>com.mastertheboss.domain.Employee</class>
-		<class>com.mastertheboss.domain.Department</class>
+		<class>com.nigeeks.jpa.domain.Employee</class>
+		<class>com.nigeeks.jpa.domain.Department</class>
 
 		<!-- shouldn't be valid for java SE per specification, but it works for EclipseLink ...
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>-->

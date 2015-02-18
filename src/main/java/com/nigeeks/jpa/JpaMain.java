@@ -1,7 +1,7 @@
-package com.mastertheboss.jpa;
+package com.nigeeks.jpa;
 
-import com.mastertheboss.domain.Department;
-import com.mastertheboss.domain.Employee;
+import com.nigeeks.jpa.domain.Department;
+import com.nigeeks.jpa.domain.Employee;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
